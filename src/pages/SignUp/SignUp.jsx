@@ -10,11 +10,11 @@ const SignUp = () => {
     <Box className={classes.mainContainer}>
       <Typography className={classes.mainHeading}>VULTR</Typography>
       <Box className={classes.formContainer}>
-        <Typography className={classes.heading}>Create Account</Typography>
-        <Typography className={classes.subHeading}>
-          You're moments away from launching a blazing fast SSD Cloud Server.
-        </Typography>
         <form>
+          <Typography className={classes.heading}>Create Account</Typography>
+          <Typography className={classes.subHeading}>
+            You're moments away from launching a blazing fast SSD Cloud Server.
+          </Typography>
           <TextField
             margin="normal"
             required
@@ -39,23 +39,28 @@ const SignUp = () => {
             type="submit"
             fullWidth
             variant="contained"
-            sx={{ mt: 3, mb: 2 }}
+            sx={{ mt: 3, mb: 2, height: "3rem" }}
           >
             Create free account
           </Button>
-          <Box className={classes.or}>or</Box>
+          <Box className={classes.or}>
+            <Typography>or</Typography>
+          </Box>
           <Box className={classes.iconContainer}>
             <IconButton className={classes.iconBox} aria-label="github">
               <GitHub className={classes.icon} />
+              <Typography className={classes.iconText}>Github</Typography>
             </IconButton>
             <IconButton aria-label="google" className={classes.iconBox}>
               <Google className={classes.icon} />
+              <Typography className={classes.iconText}>Google</Typography>
             </IconButton>
           </Box>
-          <Typography sx={{ textAlign: "center" }}>
-            Already a member? <span style={{ color: "blue" }}>Log in</span>
-          </Typography>
         </form>
+        <Typography sx={{ textAlign: "center", color: "#555" }}>
+          Already a member
+          <span style={{ color: "#007bfc" }}>Log In</span>
+        </Typography>
       </Box>
       <svg
         xmlns="http://www.w3.org/2000/svg"

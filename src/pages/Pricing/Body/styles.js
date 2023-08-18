@@ -8,10 +8,10 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     height: "100vh",
-    margin: "2rem 0",
+    padding: "2rem 0",
   },
   leftContainer: {
-    width: "35%",
+    width: "30%",
     height: "100% !important",
     display: "flex",
     flexDirection: "column",
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   rightContainer: {
-    width: "65%",
+    width: "70%",
     height: "100% !important",
     display: "flex",
     flexDirection: "column",

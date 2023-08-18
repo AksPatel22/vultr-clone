@@ -16,7 +16,7 @@ const CustomTable = ({ rows }) => {
   return (
     <Box
       sx={{
-        boxShadow: "0px 0px 5px 5px rgba(209,209,209,1)",
+        boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) ",
         margin: "1rem 0.5rem",
       }}
     >

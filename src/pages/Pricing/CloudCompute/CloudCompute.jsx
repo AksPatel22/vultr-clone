@@ -8,6 +8,7 @@ import {
   cloudComputeHighPerformanceIntel,
   cloudComputeHighFrequency,
 } from "../../../Components/tabledata";
+import icon from "../../../assets/card.svg";
 
 const CloudCompute = () => {
   const classes = useStyles();
@@ -23,12 +24,18 @@ const CloudCompute = () => {
         Choose High Performance or High Frequency plans for the newer
         generations of AMD or Intel CPUs, along with NVMe SSD.{" "}
       </Typography>
-      <Typography className={classes.heading}>Regular Performance</Typography>
+      <Box sx={{ display: "flex", gap: "1.5rem" }}>
+        <img src={icon} alt="" />
+        <Typography className={classes.heading}>Regular Performance</Typography>
+      </Box>
       <Typography className={classes.subHeading}>
         Powered by previous generation Intel CPUs and regular SSD.
       </Typography>
       <CustomTable rows={cloudComputeRegularPerformance} />
-      <Typography className={classes.heading}>High Performance</Typography>
+      <Box sx={{ display: "flex", gap: "1.5rem" }}>
+        <img src={icon} alt="" />
+        <Typography className={classes.heading}>High Performance</Typography>
+      </Box>
       <Typography className={classes.subHeading}>
         Powered by new generations of AMD EPYC or Intel Xeon CPUs and NVMe SSD.
       </Typography>
@@ -36,7 +43,10 @@ const CloudCompute = () => {
       <CustomTable rows={cloudComputeHighPerformanceAMD} />
       <Typography className={classes.subCategory}>Intel Pricing</Typography>
       <CustomTable rows={cloudComputeHighPerformanceIntel} />
-      <Typography className={classes.heading}>High Frequency</Typography>
+      <Box sx={{ display: "flex", gap: "1.5rem" }}>
+        <img src={icon} alt="" />
+        <Typography className={classes.heading}>High Frequency</Typography>
+      </Box>
       <Typography className={classes.subHeading}>
         Powered by 3GHz+ Intel Xeon CPUs and NVMe SSD.
       </Typography>

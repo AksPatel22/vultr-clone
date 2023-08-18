@@ -86,7 +86,7 @@ const Locations = () => {
                   </Box>
                 }
               >
-                <circle r={5} fill="#00F" stroke="#fff" strokeWidth={2} />
+                <circle r={3} fill="#007bfc" stroke="#007bfc" strokeWidth={2} />
               </Tooltip>
             </Marker>
           ))}

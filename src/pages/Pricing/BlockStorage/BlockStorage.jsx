@@ -10,7 +10,7 @@ const BlockStorage = () => {
     <Box className={classes.container}>
       <Typography className={classes.Title}>Block Storage</Typography>
       <Box className={classes.cardContainer}>
-        <Slider defaultValue={50} aria-label="Default" min={1} max={1000} />
+        <Slider defaultValue={1} aria-label="Default" min={1} max={1000} />
         <Box className={classes.infoContainer}>
           <Box sx={{ display: "flex", flexDirection: "column", width: "40%" }}>
             <Typography sx={{ fontSize: "24px" }}>Price:</Typography>

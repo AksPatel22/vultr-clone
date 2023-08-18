@@ -4,7 +4,6 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) => ({
   container: {
     width: "100%",
-    // maxHeight: "100vh !important",
     backgroundColor: "white",
     margin: "1rem",
   },
@@ -13,30 +12,32 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 0.5rem",
   },
   Title: {
-    fontSize: "36px !important",
-    fontWeight: "500 !important",
+    fontSize: "40px !important",
+    fontWeight: "600 !important",
     textAlign: "left",
     color: "var(--primary-blue)",
   },
   subTitle: {
+    fontWeight: "300 !important",
     fontSize: "18px !important",
-    color: "#444",
+    color: "#666",
     margin: "0.5rem 0 !important",
   },
   heading: {
-    fontWeight: "500 !important",
+    fontWeight: "600 !important",
     color: "var(--primary-blue)",
-    fontSize: "28px !important",
+    fontSize: "32px !important",
   },
   subHeading: {
-    color: "#444",
+    fontWeight: "300 !important",
+    color: "#666",
     fontSize: "18px !important",
     margin: "0.5rem 0 !important",
   },
   subCategory: {
     fontWeight: "500 !important",
     color: "var(--primary-blue)",
-    fontSize: "18px !important",
+    fontSize: "20px !important",
     margin: "0.5rem 0 !important",
   },
 }));

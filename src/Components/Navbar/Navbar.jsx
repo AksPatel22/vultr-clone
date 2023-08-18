@@ -130,8 +130,8 @@ const Navbar = () => {
                     onClick={handleCloseNavMenu}
                     sx={{ my: 2, color: "white", display: "block" }}
                     className={classes.navLink}
-                    onMouseEnter={() => setActiveNavlink(page)}
-                    onMouseLeave={() => setActiveNavlink(null)}
+                    // onMouseEnter={() => setActiveNavlink(page)}
+                    // onMouseLeave={() => setActiveNavlink(null)}
                   >
                     {page}
                   </Button>
@@ -142,7 +142,7 @@ const Navbar = () => {
 
               {/* Login on the right */}
               <Box>
-                <Tooltip title="Open settings">
+                <Tooltip>
                   <IconButton onClick={handleOpenUserMenu}>
                     <img
                       alt="Remy Sharp"

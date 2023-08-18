@@ -8,10 +8,11 @@ const useStyles = makeStyles((theme) => ({
     margin: "1rem",
   },
   Title: {
-    fontSize: "38px !important",
-    fontWeight: "600 !important",
     textAlign: "left",
     color: "var(--primary-blue)",
+    width: "100%",
+    fontSize: "40px !important",
+    fontWeight: "600 !important",
   },
 
   gridContainer: {
@@ -30,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "1.5rem",
     borderRadius: "15px",
     marginTop: "2rem !important",
-    boxShadow: "1px 0px 10px 0px rgba(102,102,102,0.75) !important",
+    boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) !important",
   },
   cardTitle: {
     fontSize: "18px !important",

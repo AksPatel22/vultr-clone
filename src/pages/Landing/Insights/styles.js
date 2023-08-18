@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "2rem 0 !important",
   },
   gridContainer: {
-    marginTop: "5rem !important",
+    margin: "5rem 0 !important",
     height: "100%",
     padding: "0 5rem",
     "@media (max-width:750px)": {
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    boxShadow: "0px 0px 10px 5px rgba(200,200,200,1) !important",
+    boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) !important",
     "&:hover": {
       transition: "all 0.2s ease-in",
       cursor: "pointer",
@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   SVG: {
-    height: "80px",
+    height: "65px",
   },
   cardImg: {
     height: "40%",
@@ -67,15 +67,16 @@ const useStyles = makeStyles((theme) => ({
   },
   subCard: {
     height: "230px",
-    border: "1px solid #aaa",
-    boxShadow: "none",
+    border: "1px solid #ddd",
+    boxShadow: "none !important",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     "&:hover": {
-      border: "1px solid blue",
+      border: "1px solid var(--text-blue)",
     },
+    gap: "1rem",
   },
   cardHeading: {
     fontWeight: "bold !important",

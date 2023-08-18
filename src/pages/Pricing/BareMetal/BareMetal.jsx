@@ -18,8 +18,20 @@ const BareMetal = () => {
       <Typography className={classes.heading}>
         NVIDIA GPU + Intel CPU Compute
       </Typography>
-      <Grid container className={classes.gridContainer} justifyContent="center">
-        <Grid xs={12} sm={12} md={6} lg={6} className={classes.gridItem}>
+      <Grid
+        container
+        className={classes.gridContainer}
+        justifyContent="center"
+        sx={{ gap: "2rem" }}
+      >
+        <Grid
+          xs={12}
+          sm={12}
+          md={3}
+          lg={3}
+          className={classes.gridItem}
+          sx={{ justifyContent: "right" }}
+        >
           <Card className={classes.card}>
             {/* <Typography className={classes.cardHeading}>
               AI,Data Analytics, and HPC
@@ -51,7 +63,14 @@ const BareMetal = () => {
             </Typography>
           </Card>
         </Grid>
-        <Grid xs={12} sm={12} md={6} lg={6} className={classes.gridItem}>
+        <Grid
+          xs={12}
+          sm={12}
+          md={3}
+          lg={3}
+          className={classes.gridItem}
+          sx={{ justifyContent: "left" }}
+        >
           <Card className={classes.card}>
             {/* <Typography className={classes.cardHeading}>
               AI,Data Analytics, and HPC

@@ -13,14 +13,15 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 0.5rem",
   },
   Title: {
-    fontSize: "36px !important",
-    fontWeight: "500 !important",
+    fontSize: "40px !important",
+    fontWeight: "600 !important",
     textAlign: "left",
     color: "var(--primary-blue)",
   },
   subTitle: {
+    fontWeight: "300 !important",
     fontSize: "18px !important",
-    color: "#444",
+    color: "#666",
     margin: "0.5rem 0 !important",
   },
   heading: {

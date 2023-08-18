@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    "@media (max-width:750px)": {
+    "@media (max-width:870px)": {
       width: "80%",
     },
     zIndex: "2",
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     fontWeight: "600 !important",
     fontSize: "52px !important",
-    "@media (max-width:800px)": {
+    "@media (max-width:875px)": {
       flexDirection: "column",
       fontSize: "40px !important",
       textAlign: "center",
@@ -46,9 +46,9 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "space-around",
     marginBottom: "2rem",
-    width: "80%",
+    width: "85%",
     height: "max-content",
-    "@media (max-width:750px)": {
+    "@media (max-width:870px)": {
       width: "100%",
       marginTop: "2rem",
       flexDirection: "column",
@@ -59,14 +59,14 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "white",
     borderRadius: "5px",
     width: "32%",
-    "@media (max-width:750px)": {
+    "@media (max-width:870px)": {
       width: "80%",
     },
   },
   btn: {
     width: "32%",
     height: "3.5rem !important",
-    "@media (max-width:750px)": {
+    "@media (max-width:870px)": {
       width: "80%",
       height: "3rem !important",
     },
@@ -81,10 +81,10 @@ const useStyles = makeStyles((theme) => ({
       cursor: "pointer",
       transform: "translateY(-10px)",
     },
-    border: "1px solid #aaa",
     width: "90%",
     maxWidth: "400px",
     marginBottom: "1rem !important",
+    boxShadow: "none !important",
   },
   gridContainer: {
     marginTop: "5rem !important",
@@ -112,7 +112,7 @@ const useStyles = makeStyles((theme) => ({
   cardPricing: {
     fontSize: "18px !important",
     fontWeight: "500 !important",
-    color: "var(--secondary-blue)",
+    color: "var(--text-blue)",
     marginBottom: "1rem !important",
   },
   whiteSVG: {

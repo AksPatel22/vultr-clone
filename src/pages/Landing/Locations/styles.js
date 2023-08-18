@@ -40,7 +40,6 @@ const useStyles = makeStyles((theme) => ({
   },
   summary: {
     position: "absolute",
-    border: "1px solid black",
     right: "10%",
     marginTop: "10%",
     height: "9rem",
@@ -54,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
   },
   summaryHeading: {
     // marginTop: "4rem !important",
-    color: "var(--secondary-blue)",
+    color: "var(--text-blue)",
     fontSize: "26px !important",
   },
   smallContainer: {
@@ -78,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
     border: "1px solid #aaa",
   },
   exploreBtn: {
-    marginTop: "-10rem !important",
+    marginTop: "-15rem !important",
     "@media (max-width:1100px)": {
       marginTop: "1rem !important",
     },

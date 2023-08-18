@@ -10,8 +10,8 @@ const Login = () => {
     <Box className={classes.mainContainer}>
       <Typography className={classes.mainHeading}>VULTR</Typography>
       <Box className={classes.formContainer}>
-        <Typography className={classes.heading}>Welcome Back</Typography>
         <form>
+          <Typography className={classes.heading}>Welcome Back</Typography>
           <TextField
             margin="normal"
             required
@@ -37,27 +37,32 @@ const Login = () => {
             type="submit"
             fullWidth
             variant="contained"
-            sx={{ mt: 3, mb: 2 }}
+            sx={{ mt: 3, mb: 2, height: "3rem" }}
           >
-            Sign In
+            Log In
           </Button>
-          <Box className={classes.or}>or</Box>
+          <Box className={classes.or}>
+            <Typography>or</Typography>
+          </Box>
           <Box className={classes.iconContainer}>
             <IconButton className={classes.iconBox} aria-label="key">
               <Lock className={classes.icon} />
+              <Typography className={classes.iconText}>SSO</Typography>
             </IconButton>
             <IconButton className={classes.iconBox} aria-label="github">
               <GitHub className={classes.icon} />
+              <Typography className={classes.iconText}>Github</Typography>
             </IconButton>
             <IconButton aria-label="google" className={classes.iconBox}>
               <Google className={classes.icon} />
+              <Typography className={classes.iconText}>Google</Typography>
             </IconButton>
           </Box>
-          <Typography sx={{ textAlign: "center" }}>
-            Don't have an account yet?{" "}
-            <span style={{ color: "blue" }}>Sign Up</span>
-          </Typography>
         </form>
+        <Typography sx={{ textAlign: "center", color: "#555" }}>
+          Don't have an account yet?{" "}
+          <span style={{ color: "#007bfc" }}>Sign Up</span>
+        </Typography>
       </Box>
       <svg
         xmlns="http://www.w3.org/2000/svg"

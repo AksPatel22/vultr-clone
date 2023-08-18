@@ -45,17 +45,12 @@ const Insights = () => {
                     d="m44.8 28.3c0-1.4-0.3-2.4-0.9-2.8s-1.5-0.3-2.6 0.4c-1.2 0.7-2.2 1.7-2.8 2.9-0.6 1.1-1 2.3-1.1 3.5l1.3-0.8c0.1-1.6 1-3.1 2.4-3.9 0.3-0.2 0.7-0.3 1.1-0.4 0.3 0 0.5 0.1 0.7 0.3 0.5 0.5 0.7 1.3 0.6 2 0 1.1-0.3 2.2-0.8 3.2l-1.3 2.5c-0.4 0.8-0.8 1.6-1 2.5l-0.3 2.1 1.3-0.7c0-1.2 0.2-2.3 0.7-3.4l1.1-2c1-1.7 1.5-3.6 1.6-5.4z"
                   ></path>
                 </svg>
-                <Typography>FAQ</Typography>
+                <Typography sx={{ fontWeight: "500", fontSize: "20px" }}>
+                  FAQ
+                </Typography>
               </Card>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={12}
-              md={6}
-              lg={6}
-              className={classes.subGrid}
-            >
+            <Grid item xs={12} sm={12} md={6} lg={6}>
               <Card className={classes.subCard}>
                 <svg
                   class="icon-sm icon-sm--64"
@@ -86,17 +81,12 @@ const Insights = () => {
                     d="m44.8 28.3c0-1.4-0.3-2.4-0.9-2.8s-1.5-0.3-2.6 0.4c-1.2 0.7-2.2 1.7-2.8 2.9-0.6 1.1-1 2.3-1.1 3.5l1.3-0.8c0.1-1.6 1-3.1 2.4-3.9 0.3-0.2 0.7-0.3 1.1-0.4 0.3 0 0.5 0.1 0.7 0.3 0.5 0.5 0.7 1.3 0.6 2 0 1.1-0.3 2.2-0.8 3.2l-1.3 2.5c-0.4 0.8-0.8 1.6-1 2.5l-0.3 2.1 1.3-0.7c0-1.2 0.2-2.3 0.7-3.4l1.1-2c1-1.7 1.5-3.6 1.6-5.4z"
                   ></path>
                 </svg>
-                <Typography>FAQ</Typography>
+                <Typography sx={{ fontWeight: "500", fontSize: "20px" }}>
+                  FAQ
+                </Typography>
               </Card>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={12}
-              md={6}
-              lg={6}
-              className={classes.subGrid}
-            >
+            <Grid item xs={12} sm={12} md={6} lg={6}>
               <Card className={classes.subCard}>
                 <svg
                   class="icon-sm icon-sm--64"
@@ -127,17 +117,12 @@ const Insights = () => {
                     d="m44.8 28.3c0-1.4-0.3-2.4-0.9-2.8s-1.5-0.3-2.6 0.4c-1.2 0.7-2.2 1.7-2.8 2.9-0.6 1.1-1 2.3-1.1 3.5l1.3-0.8c0.1-1.6 1-3.1 2.4-3.9 0.3-0.2 0.7-0.3 1.1-0.4 0.3 0 0.5 0.1 0.7 0.3 0.5 0.5 0.7 1.3 0.6 2 0 1.1-0.3 2.2-0.8 3.2l-1.3 2.5c-0.4 0.8-0.8 1.6-1 2.5l-0.3 2.1 1.3-0.7c0-1.2 0.2-2.3 0.7-3.4l1.1-2c1-1.7 1.5-3.6 1.6-5.4z"
                   ></path>
                 </svg>
-                <Typography>FAQ</Typography>
+                <Typography sx={{ fontWeight: "500", fontSize: "20px" }}>
+                  FAQ
+                </Typography>
               </Card>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={12}
-              md={6}
-              lg={6}
-              className={classes.subGrid}
-            >
+            <Grid item xs={12} sm={12} md={6} lg={6}>
               <Card className={classes.subCard}>
                 <svg
                   class="icon-sm icon-sm--64"
@@ -168,7 +153,9 @@ const Insights = () => {
                     d="m44.8 28.3c0-1.4-0.3-2.4-0.9-2.8s-1.5-0.3-2.6 0.4c-1.2 0.7-2.2 1.7-2.8 2.9-0.6 1.1-1 2.3-1.1 3.5l1.3-0.8c0.1-1.6 1-3.1 2.4-3.9 0.3-0.2 0.7-0.3 1.1-0.4 0.3 0 0.5 0.1 0.7 0.3 0.5 0.5 0.7 1.3 0.6 2 0 1.1-0.3 2.2-0.8 3.2l-1.3 2.5c-0.4 0.8-0.8 1.6-1 2.5l-0.3 2.1 1.3-0.7c0-1.2 0.2-2.3 0.7-3.4l1.1-2c1-1.7 1.5-3.6 1.6-5.4z"
                   ></path>
                 </svg>
-                <Typography>FAQ</Typography>
+                <Typography sx={{ fontWeight: "500", fontSize: "20px" }}>
+                  FAQ
+                </Typography>
               </Card>
             </Grid>
           </Grid>

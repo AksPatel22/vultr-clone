@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-    boxShadow: "1px 0px 10px 0px rgba(102,102,102,0.75) !important",
+    boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) !important",
     margin: "1rem 0",
   },
   img: {

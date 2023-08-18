@@ -7,7 +7,7 @@ import MuiAccordionDetails from "@mui/material/AccordionDetails";
 export const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
-  boxShadow: "0px 0px 5px 5px rgba(230, 230, 230, 1)",
+  boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) ",
   borderRadius: "5px",
   "&:before": {
     display: "none",

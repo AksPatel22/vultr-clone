@@ -54,15 +54,25 @@ const useStyles = makeStyles((theme) => ({
     zIndex: "10",
     minWidth: "25%",
     maxWidth: "30%",
+    boxShadow: "0px 2px 5px 0px rgba(150,150,150,1) !important ",
   },
   whiteSvg: {
-    marginTop: "-40vh !important",
+    // marginTop: "40vh !important",
+    position: "absolute",
+    top: "50vh",
   },
   forgot: {
     width: "100%",
     textAlign: "left",
-    fontSize: "16px !important",
+    fontSize: "14px !important",
     color: "#555",
+    "&:hover": {
+      color: "var(--text-blue)",
+    },
+    marginTop: "1.5rem !important",
+    marginBottom: "-1.5rem !important",
+    cursor: "pointer",
+    height: "2rem",
   },
   or: {
     width: "100%",
@@ -77,14 +87,22 @@ const useStyles = makeStyles((theme) => ({
     margin: "1rem 0",
   },
   icon: {
-    fontSize: "38px !important",
-    border: "1px solid black",
+    fontSize: "30px !important",
+    border: "1px solid #ddd",
     borderRadius: "10px",
     padding: "0.5rem !important",
     "&:hover": {
       border: "1px solid var(--secondary-blue)",
-      color: "var(--secondary-blue)",
+      color: "var(--text-blue)",
     },
+  },
+  iconBox: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "0.5rem",
+  },
+  iconText: {
+    fontSize: "14px !important",
   },
 }));
 

@@ -43,7 +43,7 @@ const ControlPanel = () => {
               aria-controls="panel1d-content"
               id="panel1d-header"
             >
-              <img src={accordion} alt="" height="25px" width="25px" />
+              <img src={accordion} alt="" height="45px" width="45px" />
               <Typography ml={2} className={classes.accordionHeading}>
                 One-Click Deploy
               </Typography>
@@ -66,7 +66,7 @@ const ControlPanel = () => {
               aria-controls="panel2d-content"
               id="panel2d-header"
             >
-              <img src={accordion} alt="" height="25px" width="25px" />
+              <img src={accordion} alt="" height="45px" width="45px" />
               <Typography ml={2} className={classes.accordionHeading}>
                 One-Click Deploy
               </Typography>
@@ -88,7 +88,7 @@ const ControlPanel = () => {
               aria-controls="panel3d-content"
               id="panel3d-header"
             >
-              <img src={accordion} alt="" height="25px" width="25px" />
+              <img src={accordion} alt="" height="45px" width="45px" />
               <Typography ml={2} className={classes.accordionHeading}>
                 One-Click Deploy
               </Typography>

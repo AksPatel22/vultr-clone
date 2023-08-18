@@ -11,16 +11,16 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
   },
   Title: {
-    fontSize: "36px !important",
-    fontWeight: "500 !important",
+    width: "100%",
+    fontSize: "40px !important",
+    fontWeight: "600 !important",
     textAlign: "left",
     color: "var(--primary-blue)",
-    width: "100%",
   },
   cardContainer: {
     width: "80%",
     padding: "2rem",
-    boxShadow: "2px 2px 13px 3px rgba(110,110,110,0.75) ",
+    boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) ",
     margin: "1rem 0",
     display: "flex",
   },
@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
   },
   card: {
     width: "100%",
+    margin: "0.5rem 0",
   },
 }));
 

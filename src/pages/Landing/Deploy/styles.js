@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 2rem",
   },
   card: {
-    boxShadow: "0px 0px 20px 5px rgba(200,200,200,1) !important",
+    boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) !important",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -60,17 +60,17 @@ const useStyles = makeStyles((theme) => ({
     transition: "all 0.2s ease-in",
     height: "25rem",
     "&:hover": {
-      boxShadow: "0px 0px 20px 10px rgba(200,200,200,1) !important",
+      boxShadow: "2px 0px 20px 1px rgba(200,200,200,1) !important",
       transition: "all 0.2s ease-in",
       cursor: "pointer",
       transform: "translateY(-10px)",
     },
-    // border: "1px solid #aaa",
     width: "100%",
     marginBottom: "1rem !important",
     "@media (max-width:900px)": {
       width: "85%",
     },
+    padding: "0 1rem",
   },
   cardHeading: {
     fontWeight: "700 !important",
@@ -84,7 +84,8 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "1rem !important",
   },
   cardPricing: {
-    color: "var(--secondary-blue)",
+    fontWeight: "500 !important",
+    color: "var(--text-blue)",
     marginBottom: "1rem !important",
   },
   arrowIcon: {

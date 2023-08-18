@@ -11,7 +11,9 @@ const ObjectStorage = () => {
       <Box className={classes.cardContainer}>
         <Box className={classes.left}>
           <Box className={classes.card}>
-            <Typography sx={{ fontSize: "18px", fontWeight: "500" }}>
+            <Typography
+              sx={{ fontSize: "18px", fontWeight: "500", marginBottom: "1rem" }}
+            >
               Flexible pricing
             </Typography>
             <Box
@@ -19,13 +21,14 @@ const ObjectStorage = () => {
                 display: "flex",
                 justifyContent: "space-between",
                 width: "100%",
+                marginBottom: "0.5rem",
               }}
             >
-              <Typography sx={{ fontSize: "18px", fontWeight: "500" }}>
+              <Typography sx={{ fontSize: "16px", fontWeight: "500" }}>
                 Storage
               </Typography>
               <Typography
-                sx={{ fontSize: "18px", fontWeight: "500", color: "blue" }}
+                sx={{ fontSize: "16px", fontWeight: "500", color: "#007bfc" }}
               >
                 1 TB Selected
               </Typography>
@@ -40,7 +43,9 @@ const ObjectStorage = () => {
             />
           </Box>
           <Box className={classes.card}>
-            <Typography sx={{ fontSize: "18px", fontWeight: "500" }}>
+            <Typography
+              sx={{ fontSize: "18px", fontWeight: "500", marginBottom: "1rem" }}
+            >
               Flexible pricing
             </Typography>
             <Box
@@ -48,13 +53,14 @@ const ObjectStorage = () => {
                 display: "flex",
                 justifyContent: "space-between",
                 width: "100%",
+                marginBottom: "0.5rem",
               }}
             >
-              <Typography sx={{ fontSize: "18px", fontWeight: "500" }}>
+              <Typography sx={{ fontSize: "16px", fontWeight: "500" }}>
                 Storage
               </Typography>
               <Typography
-                sx={{ fontSize: "18px", fontWeight: "500", color: "blue" }}
+                sx={{ fontSize: "16px", fontWeight: "500", color: "#007bfc" }}
               >
                 1 TB Selected
               </Typography>
@@ -73,7 +79,7 @@ const ObjectStorage = () => {
           <Typography sx={{ fontWeight: "500", fontSize: "20px" }}>
             Object Storage
           </Typography>
-          <Typography sx={{ fontSize: "26px", color: "blue" }}>
+          <Typography sx={{ fontSize: "26px", color: "#007bfc" }}>
             $5.00/month
           </Typography>
           <Typography>

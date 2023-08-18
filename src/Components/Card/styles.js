@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    width: "65%",
+    width: "75%",
     minHeight: "100px !important",
     backgroundColor: "white",
     border: "1px solid #ddd ",

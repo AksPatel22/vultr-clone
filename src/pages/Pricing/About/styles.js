@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     "@media (max-width:750px)": {
       width: "80%",
     },
-    margin: "2rem 0",
+    margin: "4rem 0",
   },
   heading: {
     color: "white",
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
   },
   subHeading: {
     textAlign: "center",
-    color: "white",
+    color: "#ccc",
     fontWeight: "300 !important",
     margin: "2rem 0 !important",
     fontSize: "22px !important",
