@@ -1,8 +1,8 @@
 import React from "react";
 import useStyles from "./styles";
 import { Box, Typography } from "@mui/material";
-import CustomTable from "../Common/Table/customTable";
-import { cloudComputeHighPerformanceAMD } from "../tabledata";
+import CustomTable from "../../../Components/Table/customTable";
+import { cloudComputeHighPerformanceAMD } from "../../../Components/tabledata";
 
 const DirectConnect = () => {
   const classes = useStyles();

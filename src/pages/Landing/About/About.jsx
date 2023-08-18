@@ -2,7 +2,7 @@ import { Box, Button, Card, Grid, Typography } from "@mui/material";
 import React from "react";
 import useStyles from "./styles";
 import TextField from "@mui/material/TextField";
-import tech from "../../assets/card.svg";
+import tech from "../../../assets/card.svg";
 
 const About = () => {
   const classes = useStyles();

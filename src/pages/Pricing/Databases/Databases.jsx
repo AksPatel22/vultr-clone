@@ -1,7 +1,7 @@
 import React from "react";
 import useStyles from "./styles";
-import CustomTable from "../Common/Table/customTable";
-import { cloudComputeRegularPerformance } from "../tabledata";
+import CustomTable from "../../../Components/Table/customTable";
+import { cloudComputeRegularPerformance } from "../../../Components/tabledata";
 import { Box, Typography } from "@mui/material";
 
 const Databases = () => {

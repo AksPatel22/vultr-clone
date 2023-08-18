@@ -9,7 +9,7 @@ import { data } from "./feature";
 import Tooltip from "@mui/material/Tooltip";
 import { Box, Button, Grid, Typography } from "@mui/material";
 import useStyles from "./styles";
-import city from "../../assets/city.png";
+import city from "../../../assets/city.png";
 
 const markers = [
   { markerOffset: -15, name: "Mumbai", coordinates: [72.8777, 19.076] },

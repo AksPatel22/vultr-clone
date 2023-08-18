@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
-import About from "../Components/Pricing/About/About";
+import About from "../pages/Pricing/About/About";
 import Footer from "../Components/Footer/Footer";
-import Body from "../Components/Pricing/Body/Body";
-import Services from "../Components/Pricing/Services/Services";
+import Body from "../pages/Pricing/Body/Body";
+import Services from "../pages/Pricing/Services/Services";
 
 const Pricing = () => {
   return (

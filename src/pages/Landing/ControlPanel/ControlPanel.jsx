@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import useStyles from "./styles";
 import { Box, Button, Typography } from "@mui/material";
-import accordion from "../../assets/accordion.svg";
+import accordion from "../../../assets/accordion.svg";
 import {
   Accordion,
   AccordionDetails,

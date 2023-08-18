@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import useStyles from "./styles";
-import CardComponent from "../Common/Card/Card";
+import CardComponent from "../../../Components/Card/Card";
 import CloudCompute from "../CloudCompute/CloudCompute";
 import OptimizedCloudCompute from "../OptimizedCloudCompute/OptimizedCloudCompute";
 import CloudGpu from "../CloudGpu/CloudGpu";

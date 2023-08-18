@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import useStyles from "./styles";
-import card from "../../../../assets/card.svg";
+import card from "../../assets/card.svg";
 
 const CardComponent = () => {
   const classes = useStyles();

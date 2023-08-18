@@ -1,13 +1,12 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import useStyles from "./styles";
-import CustomTable from "../Common/Table/customTable";
+import CustomTable from "../../../Components/Table/customTable";
 import {
   cloudComputeHighPerformanceAMD,
-  cloudComputeRegularPerformance,
   cloudComputeHighFrequency,
   cloudComputeHighPerformanceIntel,
-} from "../tabledata";
+} from "../../../Components/tabledata";
 
 const CloudGpu = () => {
   const classes = useStyles();
