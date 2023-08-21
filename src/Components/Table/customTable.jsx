@@ -8,8 +8,11 @@ import {
   TableRow,
 } from "@mui/material";
 import React from "react";
+import useStyles from "./styles";
 
 const CustomTable = ({ rows }) => {
+  const classes = useStyles();
+
   const keys = Object.keys(rows[0]);
   console.log(keys);
 
@@ -19,6 +22,7 @@ const CustomTable = ({ rows }) => {
         boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) ",
         margin: "1rem 0.5rem",
       }}
+      className={classes.table}
     >
       <TableContainer>
         <Table sx={{ minWidth: 650 }} aria-label="simple table">

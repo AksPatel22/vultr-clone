@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "600 !important",
     textAlign: "left",
     color: "var(--primary-blue)",
+    "@media (max-width:1100px)": {
+      fontSize: "28px !important",
+    },
   },
   cardContainer: {
     width: "80%",
@@ -28,6 +31,9 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) ",
     display: "flex",
     padding: "1rem",
+    "@media (max-width:1100px)": {
+      flexDirection: "column",
+    },
   },
 }));
 

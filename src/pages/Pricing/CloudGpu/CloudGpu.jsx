@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 import useStyles from "./styles";
 import CustomTable from "../../../Components/Table/customTable";
 import {
@@ -8,9 +8,21 @@ import {
   cloudComputeHighPerformanceIntel,
 } from "../../../Components/tabledata";
 import icon from "../../../assets/card.svg";
+import {
+  Accordion,
+  AccordionDetails,
+  CustomAccordionSummary,
+} from "../CustomAccordion";
+import AccordionCard from "../AccordionCard/AccordionCard";
 
 const CloudGpu = () => {
   const classes = useStyles();
+  const [expanded, setExpanded] = useState("panel1");
+
+  const handleChange = (panel) => (event, newExpanded) => {
+    setExpanded(newExpanded ? panel : false);
+  };
+
   return (
     <Box className={classes.container}>
       <Typography className={classes.Title}>Cloud GPU</Typography>
@@ -35,6 +47,25 @@ const CloudGpu = () => {
         Delivering unprecedented acceleration and powering the world's
         highest-performing AI, data analytics, and HPC workloads.
       </Typography>
+      <Accordion
+        expanded={expanded === "panel1"}
+        onChange={handleChange("panel1")}
+      >
+        <CustomAccordionSummary
+          aria-controls="panel1d-content"
+          id="panel1d-header"
+        >
+          <Typography ml={2} className={classes.subCategory}>
+            Pricing
+          </Typography>
+        </CustomAccordionSummary>
+        <AccordionDetails>
+          <AccordionCard />
+          <AccordionCard />
+          <AccordionCard />
+          <AccordionCard />
+        </AccordionDetails>
+      </Accordion>
       <CustomTable rows={cloudComputeHighPerformanceAMD} />
       <Box sx={{ display: "flex", gap: "1.5rem" }}>
         <img src={icon} alt="" />
@@ -44,6 +75,25 @@ const CloudGpu = () => {
         Combining professional graphics with powerful compute and AI, to meet
         today's design, creative, and scientific challenges.
       </Typography>
+      <Accordion
+        expanded={expanded === "panel2"}
+        onChange={handleChange("panel2")}
+      >
+        <CustomAccordionSummary
+          aria-controls="panel1d-content"
+          id="panel1d-header"
+        >
+          <Typography ml={2} className={classes.subCategory}>
+            Pricing
+          </Typography>
+        </CustomAccordionSummary>
+        <AccordionDetails>
+          <AccordionCard />
+          <AccordionCard />
+          <AccordionCard />
+          <AccordionCard />
+        </AccordionDetails>
+      </Accordion>
       <CustomTable rows={cloudComputeHighPerformanceIntel} />
       <Box sx={{ display: "flex", gap: "1.5rem" }}>
         <img src={icon} alt="" />
@@ -53,6 +103,25 @@ const CloudGpu = () => {
         Enabling virtual desktops and workstations with the power and
         performance to tackle any project from anywhere.
       </Typography>
+      <Accordion
+        expanded={expanded === "panel3"}
+        onChange={handleChange("panel3")}
+      >
+        <CustomAccordionSummary
+          aria-controls="panel1d-content"
+          id="panel1d-header"
+        >
+          <Typography ml={2} className={classes.subCategory}>
+            Pricing
+          </Typography>
+        </CustomAccordionSummary>
+        <AccordionDetails>
+          <AccordionCard />
+          <AccordionCard />
+          <AccordionCard />
+          <AccordionCard />
+        </AccordionDetails>
+      </Accordion>
       <CustomTable rows={cloudComputeHighFrequency} />
     </Box>
   );

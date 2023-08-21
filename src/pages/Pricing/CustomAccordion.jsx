@@ -8,8 +8,6 @@ import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
 export const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
-  backgroundColor: "transparent !important",
-  color: "white",
   border: `1px solid ${theme.palette.divider}`,
   "&:not(:last-child)": {
     borderBottom: 0,
@@ -17,24 +15,24 @@ export const Accordion = styled((props) => (
   "&:before": {
     display: "none",
   },
-  width: "95%",
+  width: "100%",
 }));
 
 export const CustomAccordionSummary = styled((props) => (
   <MuiAccordionSummary
-    expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem" }} />}
+    expandIcon={
+      <ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem", color: "#021048" }} />
+    }
     {...props}
   />
 ))(({ theme }) => ({
-  backgroundColor: "transparent !important",
-
-  flexDirection: "row",
+  flexDirection: "row-reverse",
+  gap: "1rem",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(90deg)",
-    color: "white",
   },
   "& .MuiAccordionSummary-expandIconWrapper": {
-    color: "white",
+    color: "#aaa",
   },
   "& .MuiAccordionSummary-content": {
     marginLeft: theme.spacing(1),
@@ -43,5 +41,4 @@ export const CustomAccordionSummary = styled((props) => (
 
 export const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
-  borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));

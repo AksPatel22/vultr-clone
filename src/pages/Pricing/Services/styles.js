@@ -42,6 +42,9 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "row",
     height: "max-content",
+    "@media (max-width:1100px)": {
+      flexDirection: "column",
+    },
   },
   cardContainer: {
     height: "100%",
@@ -50,6 +53,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
+    "@media (max-width:1100px)": {
+      flexDirection: "row",
+      width: "100%",
+    },
   },
   faqContainer: {
     width: "70%",
@@ -59,6 +66,10 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     boxShadow: "2px 1px 20px 2px rgba(210,210,210,0.75) !important",
     margin: "1rem 0",
+    "@media (max-width:1100px)": {
+      width: "100%",
+      flexDirection: "column",
+    },
   },
   img: {
     height: "80px",
@@ -76,6 +87,10 @@ const useStyles = makeStyles((theme) => ({
     },
     height: "220px",
     width: "220px",
+
+    "@media (max-width:1100px)": {
+      width: "100%",
+    },
   },
   rightCard: {
     display: "flex",
@@ -87,6 +102,11 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
     width: "50%",
     borderRadius: "0px !important",
+    "@media (max-width:1100px)": {
+      width: "100%",
+      justifyContent: "center",
+      alignItems: "center",
+    },
   },
 }));
 

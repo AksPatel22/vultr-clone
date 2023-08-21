@@ -8,7 +8,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     height: "100vh",
-    padding: "2rem 0",
+    "@media (max-width:1100px)": {
+      flexDirection: "column",
+    },
   },
   leftContainer: {
     width: "30%",
@@ -38,6 +40,9 @@ const useStyles = makeStyles((theme) => ({
     "&:hover::-webkit-scrollbar-track": {
       backgroundColor: "#d1d1d1",
       borderRadius: "4px",
+    },
+    "@media (max-width:1100px)": {
+      display: "none",
     },
   },
   rightContainer: {
@@ -71,6 +76,30 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "#d1d1d1",
       borderRadius: "4px",
     },
+    "@media (max-width:1100px)": {
+      width: "80%",
+      height: "auto",
+      overflowY: "none !important",
+      "&::-webkit-scrollbar": {
+        display: "none",
+      },
+      "&::-webkit-scrollbar-thumb": {
+        display: "none",
+      },
+      "&::-webkit-scrollbar-track": {
+        display: "none",
+      },
+    },
+  },
+  menuBtnContainer: {
+    "@media (max-width:1100px)": {
+      display: "flex",
+    },
+    display: "none",
+    width: "100%",
+    alignItems: "center",
+    padding: "0.5rem 0",
+    borderBottom: "1px solid #aaa",
   },
 }));
 

@@ -12,13 +12,28 @@ const BlockStorage = () => {
       <Box className={classes.cardContainer}>
         <Slider defaultValue={1} aria-label="Default" min={1} max={1000} />
         <Box className={classes.infoContainer}>
-          <Box sx={{ display: "flex", flexDirection: "column", width: "40%" }}>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              width: "40%",
+            }}
+          >
             <Typography sx={{ fontSize: "24px" }}>Price:</Typography>
             <Typography sx={{ color: "blue", fontSize: "28px" }}>
               $1.00/month
             </Typography>
           </Box>
-          <Box sx={{ display: "flex", flexDirection: "column", width: "40%" }}>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              width: "40%",
+              "@media (max-width:1100px)": {
+                width: "100%",
+              },
+            }}
+          >
             <Typography sx={{ fontSize: "24px" }}>Storage:</Typography>
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <Add />

@@ -32,7 +32,12 @@ const Services = () => {
           <Box className={classes.faqContainer}>
             <Card
               className={classes.rightCard}
-              sx={{ borderRight: "1px solid #666" }}
+              sx={{
+                borderRight: "1px solid #666",
+                "@media (max-width:1100px)": {
+                  borderRight: "none",
+                },
+              }}
             >
               <Typography
                 sx={{
