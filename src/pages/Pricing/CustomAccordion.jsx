@@ -16,6 +16,9 @@ export const Accordion = styled((props) => (
     display: "none",
   },
   width: "100%",
+  "@media (min-width:1100px)": {
+    display: "none",
+  },
 }));
 
 export const CustomAccordionSummary = styled((props) => (

@@ -126,6 +126,7 @@ const useStyles = makeStyles((theme) => ({
   },
   cardSVG: {
     margin: "0.5rem 0",
+    height: "100px",
   },
 }));
 

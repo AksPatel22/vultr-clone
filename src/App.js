@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Paths/Home.js";
-import LoginPage from "./Paths/Login.js";
-import SignUpPage from "./Paths/SignUp.js";
-import Pricing from "./Paths/Pricing.js";
+import Home from "./pages/Landing/index";
+import Login from "./pages/Login/Login.jsx";
+import SignUp from "./pages/SignUp/SignUp.jsx";
+import Pricing from "./pages/Pricing/index";
+import Deploy from "./pages/Deploy";
 
 const App = () => {
   return (
@@ -11,9 +12,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/sign-up" element={<SignUpPage />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/deploy" element={<Deploy />} />
       </Routes>
     </Router>
   );

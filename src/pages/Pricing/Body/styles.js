@@ -101,6 +101,26 @@ const useStyles = makeStyles((theme) => ({
     padding: "0.5rem 0",
     borderBottom: "1px solid #aaa",
   },
+  sideBar: {
+    height: "100vh",
+    width: "100%",
+    position: "absolute",
+    zIndex: "100",
+    backgroundColor: "white",
+    overflowY: "scroll",
+    display: "block",
+  },
+  hidden: {
+    transform: "translateX(-100vw)",
+    display: "none",
+  },
+  sideBarContainer: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+  },
 }));
 
 export default useStyles;
