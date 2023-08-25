@@ -5,6 +5,7 @@ import Login from "./pages/Login/Login.jsx";
 import SignUp from "./pages/SignUp/SignUp.jsx";
 import Pricing from "./pages/Pricing/index";
 import Deploy from "./pages/Deploy";
+import Billing from "./pages/Billing";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/deploy" element={<Deploy />} />
+        <Route path="/billing" element={<Billing />} />
       </Routes>
     </Router>
   );

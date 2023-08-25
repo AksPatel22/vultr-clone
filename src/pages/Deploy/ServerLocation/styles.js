@@ -74,6 +74,10 @@ const useStyles = makeStyles((theme) => ({
     cursor: "pointer",
     padding: "0.5rem",
   },
+  tabPanel: {
+    backgroundColor: "rebeccapurple !important",
+    width: "100vw",
+  },
 }));
 
 export default useStyles;
